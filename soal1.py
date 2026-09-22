@@ -1,4 +1,4 @@
-persentase = float(input("Masukkan persentase siswa (%): "))
+persentase = int(input("Masukkan persentase siswa (%): "))
 
 if persentase >= 90:
     print("Excellent performance")
@@ -9,4 +9,4 @@ elif persentase >= 70:
 elif persentase >= 60:
     print("Average performance")
 else:
-    print("Performance di bawah rata-rata / Perlu peningkatan")
+    print("Performance di bawah rata-rata")
